@@ -12,8 +12,8 @@ router.post('/product', (req, res, next) => {
     res.redirect('/')
 });
 
-router.use('/',(req, res, next) => {
+/*router.use('/',(req, res, next) => {
     res.send('<h1>Main Page</h1>');
-});
+});*/
 
 module.exports = router
