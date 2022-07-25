@@ -6,7 +6,7 @@ const adminRoutes = require('./routes/admin');5
 const shopRoutes = require('./routes/shop')
 const server = http.createServer(app);
 const path = require('path');
-const rootDir = require('../util/path')
+const rootDir = require('./util/path')
 
 app.use(bodyParser.urlencoded({extended: false}));
 
